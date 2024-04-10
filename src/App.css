@@ -1,0 +1,70 @@
+#root {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+  height: 460px;
+  border: 1px solid black;
+  display: flex;
+ justify-content: center;
+ background-color: rgba(3, 3, 250, 0.911);
+}
+ .price-card{
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  height: 480px;
+  border-radius: 10px;
+  background-color: mintcream;
+  position: relative;
+  bottom: 30px;
+  
+}
+.type{
+  font-size: larger;
+  opacity: 0.5;
+}
+.type1{
+  font-size: xx-large;
+  line-height: 10px;
+  position: relative;
+  bottom:50px;
+}
+.type1::after{
+  content: "";
+  display: block;
+  border-top: 1px solid rgb(238, 235, 235);
+  margin-top: 15px;
+}
+p{
+  position: relative;
+  bottom: 100px;
+  text-align: start;
+}
+.abled{
+  opacity: normal;
+}
+.abled::before{
+  content: "\2713";
+  margin: 10px;
+}
+.disabled{
+  opacity: 0.5;
+}
+.disabled::before{
+  content:"\2716";
+  color: black;
+  margin: 10px;
+}
+button{
+  cursor: pointer;
+  color: white;
+  background-color: rgba(13, 181, 248, 0.884);
+  margin: 15px;
+  padding: 10px;
+  border-radius:50px;
+  width: 200px;
+  position: relative;
+  bottom: 90px;
+  border: none;
+} 
